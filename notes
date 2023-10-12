@@ -1,0 +1,10 @@
+install express, mongoose bcrypt
+
+in models folder we create a js file and define Schema
+
+in views folder we create ejs templets
+
+we will have to install express-session which helps the user to remain logged in for the particular time 
+
+the session store is going to associate information with a particular cookie that we send back automatically to a user.
+in inspect => Application => Cookies => connect.sid will be created in http://localhost:3000.
